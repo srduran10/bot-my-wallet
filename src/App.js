@@ -1,8 +1,16 @@
+// src/App.js
+import React from 'react';
+import Dashboard from './components/Dashboard';
+
 function App() {
   return (
-    <div style={{ fontFamily: 'sans-serif', textAlign: 'center', padding: '2rem' }}>
-      <h1>🚀 Bot my Wallet está vivo</h1>
-      <p>Tu asistente financiero ya está en camino</p>
+    <div style={{ textAlign: 'center' }}>
+      <header style={{ background: '#282c34', padding: '1rem', color: 'white' }}>
+        <h1>🚀 Bot my Wallet</h1>
+      </header>
+      <main>
+        <Dashboard />
+      </main>
     </div>
   );
 }

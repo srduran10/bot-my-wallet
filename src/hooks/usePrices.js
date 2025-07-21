@@ -1,29 +1,30 @@
-// src/hooks/usePrices.js
 import { useState, useEffect } from 'react';
-import axios from 'axios';
 
-export function usePrices(ids = ['bitcoin', 'ethereum']) {
+export function usePrices() {
   const [prices, setPrices] = useState({});
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
+  const [error, setError] = useState(false);
+
+  const fetchPrices = async () => {
+    try {
+      setError(false);
+      const res = await fetch(
+        'https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum,litecoin,cardano&vs_currencies=usd'
+      );
+      if (!res.ok) throw new Error('API no responde');
+      const json = await res.json();
+      setPrices(json);
+    } catch (err) {
+      console.error('Error al obtener precios:', err);
+      setError(true);
+    } finally {
+      setLoading(false);
+    }
+  };
 
   useEffect(() => {
-    setLoading(true);
-    axios
-      .get(
-        `https://api.coingecko.com/api/v3/simple/price?ids=${ids.join(
-          ','
-        )}&vs_currencies=usd`
-      )
-      .then((res) => {
-        setPrices(res.data);
-        setLoading(false);
-      })
-      .catch((err) => {
-        setError(err);
-        setLoading(false);
-      });
-  }, [ids]);
+    fetchPrices();
+  }, []);
 
   return { prices, loading, error };
 }

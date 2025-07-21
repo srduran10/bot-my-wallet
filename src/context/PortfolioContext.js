@@ -1,4 +1,3 @@
-// src/context/PortfolioContext.js
 import React, { createContext, useState, useEffect } from 'react';
 
 export const PortfolioContext = createContext([]);
@@ -14,6 +13,7 @@ export function PortfolioProvider({ children }) {
   }, [portfolio]);
 
   const addPosition = (position) => {
+    console.log('Nueva posición agregada al contexto:', position);
     setPortfolio((prev) => [...prev, position]);
   };
 

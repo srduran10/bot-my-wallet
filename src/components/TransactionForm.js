@@ -9,13 +9,18 @@ export default function TransactionForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
     if (!symbol || !quantity || !price) return;
 
-    addPosition({
+    const nuevaPosicion = {
       symbol: symbol.toLowerCase(),
       quantity: parseFloat(quantity),
       avgPrice: parseFloat(price)
-    });
+    };
+
+    console.log('Formulario enviado. Posición creada:', nuevaPosicion);
+
+    addPosition(nuevaPosicion);
 
     setSymbol('');
     setQuantity('');
@@ -46,7 +51,9 @@ export default function TransactionForm() {
         onChange={(e) => setPrice(e.target.value)}
         required
       />
-      <button type="submit" style={{ marginTop: '0.5rem' }}>Agregar al portafolio</button>
+      <button type="submit" style={{ marginTop: '0.5rem' }}>
+        Agregar al portafolio
+      </button>
     </form>
   );
 }

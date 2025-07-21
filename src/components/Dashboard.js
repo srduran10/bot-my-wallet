@@ -1,18 +1,17 @@
 import React, { useContext } from 'react';
-import { usePrices } from '../hooks/usePrices';
+import { useBinancePrices } from '../hooks/useBinancePrices';
 import { PortfolioContext } from '../context/PortfolioContext';
 import LiveChart from './LiveChart';
 
 export default function Dashboard() {
-  const { prices, loading, error } = usePrices();
   const { portfolio, removePosition } = useContext(PortfolioContext);
+  const { prices, loading, error } = useBinancePrices(portfolio);
 
   console.log('Contenido del portafolio:', portfolio);
 
-  if (error) return <p>Error al cargar precios</p>;
-
   const calculatePerformance = (pos) => {
-    const currentPrice = prices[pos.symbol]?.usd;
+    const symbolKey = `${pos.symbol.toUpperCase()}USDT`;
+    const currentPrice = prices[symbolKey];
     if (!currentPrice) return null;
 
     const valueNow = currentPrice * pos.quantity;
@@ -30,40 +29,21 @@ export default function Dashboard() {
 
   return (
     <div style={{ padding: '1rem', fontFamily: 'sans-serif' }}>
-      <LiveChart />
+      <LiveChart portfolio={portfolio} />
 
-      <h2>📊 Precios (USD)</h2>
-      {loading ? (
-        <p>Cargando precios…</p>
-      ) : (
-        <ul style={{ listStyle: 'none', padding: 0 }}>
-          {Object.entries(prices).map(([coin, data]) => (
-            <li
-              key={coin}
-              style={{
-                margin: '0.5rem 0',
-                padding: '0.75rem',
-                border: '1px solid #ddd',
-                borderRadius: '8px',
-                display: 'flex',
-                justifyContent: 'space-between'
-              }}
-            >
-              <span style={{ textTransform: 'capitalize' }}>{coin}</span>
-              <span>${data.usd.toLocaleString()}</span>
-            </li>
-          ))}
-        </ul>
-      )}
-
-      <h2 style={{ marginTop: '2rem' }}>💼 Portafolio</h2>
+      <h2>💼 Portafolio</h2>
       {portfolio.length === 0 ? (
         <p>No has añadido posiciones</p>
       ) : (
         <ul style={{ paddingLeft: 0 }}>
           {portfolio.map((pos) => {
             const perf = calculatePerformance(pos);
-            const color = perf?.profit > 0 ? 'green' : perf?.profit < 0 ? 'red' : 'gray';
+            const color =
+              perf?.profit > 0
+                ? 'green'
+                : perf?.profit < 0
+                ? 'red'
+                : 'gray';
             return (
               <li
                 key={`${pos.symbol}-${pos.avgPrice}-${pos.quantity}`}
@@ -78,20 +58,23 @@ export default function Dashboard() {
               >
                 <strong style={{ textTransform: 'capitalize' }}>
                   {pos.symbol}
-                </strong>: {pos.quantity} @ ${pos.avgPrice}
+                </strong>
+                : {pos.quantity} @ ${pos.avgPrice}
+
                 {perf ? (
                   <div style={{ fontSize: '0.9rem', marginTop: '0.5rem' }}>
-                    Valor actual: ${perf.valueNow.toFixed(2)}  
+                    Valor actual: ${perf.valueNow.toFixed(2)}
                     <br />
-                    Ganancia/Pérdida: ${perf.profit.toFixed(2)}  
+                    Ganancia/Pérdida: ${perf.profit.toFixed(2)}
                     <br />
                     Variación: {perf.percent.toFixed(2)}%
                   </div>
                 ) : (
                   <div style={{ fontSize: '0.9rem', marginTop: '0.5rem' }}>
-                    ⏳ Aún cargando precio…
+                    ⏳ Aún cargando precio desde Binance…
                   </div>
                 )}
+
                 <button
                   onClick={() => removePosition(pos.symbol)}
                   style={{
@@ -114,6 +97,13 @@ export default function Dashboard() {
             );
           })}
         </ul>
+      )}
+
+      {loading && <p>⏳ Cargando precios desde Binance…</p>}
+      {error && (
+        <p style={{ color: 'red' }}>
+          ❌ Error al obtener precios desde Binance
+        </p>
       )}
     </div>
   );

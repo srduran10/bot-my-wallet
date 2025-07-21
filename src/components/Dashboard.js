@@ -86,11 +86,14 @@ export default function Dashboard() {
                     position: 'absolute',
                     top: '8px',
                     right: '8px',
-                    background: '#ccc',
+                    background: '#ff4d4f',
+                    color: 'white',
+                    fontweight: 'bold',
                     border: 'none',
                     borderRadius: '4px',
-                    padding: '0.2rem 0.5rem',
-                    fontSize: '0.8rem'
+                    padding: '0.3rem 0.6rem',
+                    fontSize: '0.75rem',
+                    cursor: 'pointer'
                   }}
                 >
                   Eliminar

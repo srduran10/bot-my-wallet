@@ -4,7 +4,7 @@ import { PortfolioContext } from '../context/PortfolioContext';
 
 export default function Dashboard() {
   const { prices, loading, error } = usePrices();
-  const { portfolio } = useContext(PortfolioContext);
+  const { portfolio, removePosition } = useContext(PortfolioContext);
 
   if (loading) return <p>Cargando precios…</p>;
   if (error) return <p>Error al cargar precios</p>;
@@ -64,7 +64,8 @@ export default function Dashboard() {
                   padding: '0.75rem',
                   border: '1px solid #ddd',
                   borderRadius: '8px',
-                  color
+                  color,
+                  position: 'relative'
                 }}
               >
                 <strong style={{ textTransform: 'capitalize' }}>
@@ -79,6 +80,21 @@ export default function Dashboard() {
                     Variación: {perf.percent.toFixed(2)}%
                   </div>
                 )}
+                <button
+                  onClick={() => removePosition(pos.symbol)}
+                  style={{
+                    position: 'absolute',
+                    top: '8px',
+                    right: '8px',
+                    background: '#ccc',
+                    border: 'none',
+                    borderRadius: '4px',
+                    padding: '0.2rem 0.5rem',
+                    fontSize: '0.8rem'
+                  }}
+                >
+                  Eliminar
+                </button>
               </li>
             );
           })}

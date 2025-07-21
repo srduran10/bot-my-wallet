@@ -6,6 +6,8 @@ export default function Dashboard() {
   const { prices, loading, error } = usePrices();
   const { portfolio, removePosition } = useContext(PortfolioContext);
 
+  console.log('Contenido del portafolio:', portfolio);
+
   if (loading) return <p>Cargando precios…</p>;
   if (error) return <p>Error al cargar precios</p>;
 
@@ -86,9 +88,9 @@ export default function Dashboard() {
                     position: 'absolute',
                     top: '8px',
                     right: '8px',
-                    background: '#ff4d4f',
+                    backgroundColor: '#ff4d4f',
                     color: 'white',
-                    fontweight: 'bold',
+                    fontWeight: 'bold',
                     border: 'none',
                     borderRadius: '4px',
                     padding: '0.3rem 0.6rem',

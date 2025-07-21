@@ -1,6 +1,6 @@
-// src/App.js
 import React from 'react';
 import Dashboard from './components/Dashboard';
+import TransactionForm from './components/TransactionForm';
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
       </header>
       <main>
         <Dashboard />
+        <TransactionForm />
       </main>
     </div>
   );

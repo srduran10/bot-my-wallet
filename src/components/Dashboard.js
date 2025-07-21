@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { usePrices } from '../hooks/usePrices';
 import { PortfolioContext } from '../context/PortfolioContext';
+import LiveChart from './LiveChart';
 
 export default function Dashboard() {
   const { prices, loading, error } = usePrices();
@@ -29,6 +30,8 @@ export default function Dashboard() {
 
   return (
     <div style={{ padding: '1rem', fontFamily: 'sans-serif' }}>
+      <LiveChart />
+
       <h2>📊 Precios (USD)</h2>
       {loading ? (
         <p>Cargando precios…</p>

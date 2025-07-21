@@ -8,7 +8,6 @@ export default function Dashboard() {
 
   console.log('Contenido del portafolio:', portfolio);
 
-  if (loading) return <p>Cargando precios…</p>;
   if (error) return <p>Error al cargar precios</p>;
 
   const calculatePerformance = (pos) => {
@@ -31,24 +30,28 @@ export default function Dashboard() {
   return (
     <div style={{ padding: '1rem', fontFamily: 'sans-serif' }}>
       <h2>📊 Precios (USD)</h2>
-      <ul style={{ listStyle: 'none', padding: 0 }}>
-        {Object.entries(prices).map(([coin, data]) => (
-          <li
-            key={coin}
-            style={{
-              margin: '0.5rem 0',
-              padding: '0.75rem',
-              border: '1px solid #ddd',
-              borderRadius: '8px',
-              display: 'flex',
-              justifyContent: 'space-between'
-            }}
-          >
-            <span style={{ textTransform: 'capitalize' }}>{coin}</span>
-            <span>${data.usd.toLocaleString()}</span>
-          </li>
-        ))}
-      </ul>
+      {loading ? (
+        <p>Cargando precios…</p>
+      ) : (
+        <ul style={{ listStyle: 'none', padding: 0 }}>
+          {Object.entries(prices).map(([coin, data]) => (
+            <li
+              key={coin}
+              style={{
+                margin: '0.5rem 0',
+                padding: '0.75rem',
+                border: '1px solid #ddd',
+                borderRadius: '8px',
+                display: 'flex',
+                justifyContent: 'space-between'
+              }}
+            >
+              <span style={{ textTransform: 'capitalize' }}>{coin}</span>
+              <span>${data.usd.toLocaleString()}</span>
+            </li>
+          ))}
+        </ul>
+      )}
 
       <h2 style={{ marginTop: '2rem' }}>💼 Portafolio</h2>
       {portfolio.length === 0 ? (
@@ -60,7 +63,7 @@ export default function Dashboard() {
             const color = perf?.profit > 0 ? 'green' : perf?.profit < 0 ? 'red' : 'gray';
             return (
               <li
-                key={pos.symbol}
+                key={`${pos.symbol}-${pos.avgPrice}-${pos.quantity}`}
                 style={{
                   margin: '0.5rem 0',
                   padding: '0.75rem',
@@ -73,13 +76,17 @@ export default function Dashboard() {
                 <strong style={{ textTransform: 'capitalize' }}>
                   {pos.symbol}
                 </strong>: {pos.quantity} @ ${pos.avgPrice}
-                {perf && (
+                {perf ? (
                   <div style={{ fontSize: '0.9rem', marginTop: '0.5rem' }}>
                     Valor actual: ${perf.valueNow.toFixed(2)}  
                     <br />
                     Ganancia/Pérdida: ${perf.profit.toFixed(2)}  
                     <br />
                     Variación: {perf.percent.toFixed(2)}%
+                  </div>
+                ) : (
+                  <div style={{ fontSize: '0.9rem', marginTop: '0.5rem' }}>
+                    ⏳ Aún cargando precio…
                   </div>
                 )}
                 <button

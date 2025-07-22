@@ -1,7 +1,11 @@
 name: Auto Trade Bot My Wallet v2
 
 on:
+<<<<<<< HEAD
   workflow_dispatch: {}  # Permite ejecución manual desde GitHub
+=======
+  workflow_dispatch: {}  # Permite ejecutar manualmente desde GitHub
+>>>>>>> 6075c35 (Activar workflow manual y automatico con historial)
   schedule:
     - cron: '*/5 * * * *'  # Ejecuta cada 5 minutos
 

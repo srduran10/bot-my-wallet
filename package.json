@@ -1,6 +1,7 @@
 {
   "name": "bot-my-wallet",
   "version": "1.0.0",
+  "type": "module"
   "private": true,
   "scripts": {
     "start": "react-scripts start",

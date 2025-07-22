@@ -1,19 +1,23 @@
 {
   "name": "bot-my-wallet",
   "version": "1.0.0",
-  "type": "module",
   "private": true,
+  "type": "module",
+  "description": "Bot automático para trading de criptomonedas en Binance con interfaz React",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build"
+    "start": "react-scripts start",        // lanza la app web
+    "build": "react-scripts build",        // compila para producción
+    "bot": "node trade-bot.js"             // ejecuta el bot directamente
   },
   "dependencies": {
-    "axios": "^1.4.0",
-    "chart.js": "^4.5.0",
-    "react": "^18.2.0",
-    "react-chartjs-2": "^5.3.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1"
+    "axios": "^1.4.0",                     // para consumir APIs
+    "chart.js": "^4.5.0",                  // visualización de datos en frontend
+    "react": "^18.2.0",                    // librería principal del frontend
+    "react-chartjs-2": "^5.3.0",           // integración de Chart.js con React
+    "react-dom": "^18.2.0",                // soporte para renderizado React
+    "react-scripts": "5.0.1",              // herramientas para construir React
+    "binance-api-node": "^0.12.0",         // conecta con Binance para trading
+    "node-fetch": "^3.3.2"                 // útil para consumir APIs tipo Fear & Greed
   },
   "browserslist": {
     "production": [

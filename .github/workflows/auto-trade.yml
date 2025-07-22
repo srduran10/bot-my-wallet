@@ -1,8 +1,9 @@
 name: Auto Trade Bot My Wallet v2
 
 on:
+  workflow_dispatch: {}  # Permite ejecución manual desde GitHub
   schedule:
-    - cron: '*/5 * * * *' # Ejecuta cada 5 minutos
+    - cron: '*/5 * * * *'  # Ejecuta cada 5 minutos
 
 jobs:
   trade:
@@ -25,3 +26,13 @@ jobs:
           BINANCE_API_SECRET: ${{ secrets.BINANCE_API_SECRET }}
           NEXT_PUBLIC_BINANCE_API_URL: ${{ secrets.NEXT_PUBLIC_BINANCE_API_URL }}
         run: node trade-bot.js
+
+      - name: Commit updated history.json
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add data/history.json
+          git commit -m "📈 Actualiza historial de operaciones"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

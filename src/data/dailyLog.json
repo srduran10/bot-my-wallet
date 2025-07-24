@@ -1,0 +1,198 @@
+[
+  {
+    "date": "2025-07-20",
+    "gain": 15,
+    "loss": 0,
+    "net": 15,
+    "capital": 1015
+  },
+  {
+    "date": "2025-07-21",
+    "gain": 18,
+    "loss": -5,
+    "net": 13,
+    "capital": 1028.3
+  },
+  {
+    "date": "2025-07-22",
+    "gain": 22,
+    "loss": -7.1,
+    "net": 14.9,
+    "capital": 1043.2
+  },
+  {
+    "date": "2025-07-23",
+    "change": 30,
+    "capital": 1325.4
+  },
+  {
+    "date": "2025-07-23",
+    "change": 15,
+    "capital": 1340.4
+  },
+  {
+    "date": "2025-07-23",
+    "change": 15,
+    "capital": 1355.4
+  },
+  {
+    "date": "2025-07-23",
+    "change": 30,
+    "capital": 1385.4
+  },
+  {
+    "date": "2025-07-23",
+    "change": 30,
+    "capital": 1415.4
+  },
+  {
+    "date": "2025-07-23",
+    "change": 15,
+    "capital": 1430.4
+  },
+  {
+    "date": "2025-07-23",
+    "change": 30,
+    "capital": 1460.4
+  },
+  {
+    "date": "2025-07-23",
+    "change": 45,
+    "capital": 1505.4
+  },
+  {
+    "date": "2025-07-23",
+    "change": 30,
+    "capital": null
+  },
+  {
+    "date": "2025-07-23",
+    "change": 15,
+    "capital": 15
+  },
+  {
+    "date": "2025-07-23",
+    "change": 0,
+    "capital": 15
+  },
+  {
+    "date": "2025-07-23",
+    "change": 15,
+    "capital": 30
+  },
+  {
+    "date": "2025-07-23",
+    "change": 15,
+    "capital": 45
+  },
+  {
+    "date": "2025-07-23",
+    "change": 30,
+    "capital": 75
+  },
+  {
+    "date": "2025-07-23",
+    "change": 45,
+    "capital": 120
+  },
+  {
+    "date": "2025-07-23",
+    "change": 45,
+    "capital": 165
+  },
+  {
+    "date": "2025-07-23",
+    "change": 30,
+    "capital": 195
+  },
+  {
+    "date": "2025-07-23",
+    "change": 45,
+    "capital": 240
+  },
+  {
+    "date": "2025-07-23",
+    "change": 30,
+    "capital": 270
+  },
+  {
+    "date": "2025-07-23",
+    "change": 30,
+    "capital": 44.15
+  },
+  {
+    "date": "2025-07-23",
+    "change": 30,
+    "capital": 74.15
+  },
+  {
+    "date": "2025-07-23",
+    "change": 15,
+    "capital": 89.15
+  },
+  {
+    "date": "2025-07-23",
+    "change": 15,
+    "capital": 104.15
+  },
+  {
+    "date": "2025-07-23",
+    "change": 45,
+    "capital": 149.15
+  },
+  {
+    "date": "2025-07-23",
+    "change": 15,
+    "capital": 164.15
+  },
+  {
+    "date": "2025-07-23",
+    "change": 30,
+    "capital": 194.15
+  },
+  {
+    "date": "2025-07-23",
+    "change": 30,
+    "capital": 224.15
+  },
+  {
+    "date": "2025-07-23",
+    "change": 15,
+    "capital": 239.15
+  },
+  {
+    "date": "2025-07-23",
+    "change": 45,
+    "capital": 284.15
+  },
+  {
+    "date": "2025-07-23",
+    "change": 15,
+    "capital": 299.15
+  },
+  {
+    "date": "2025-07-23",
+    "change": 30,
+    "capital": 329.15
+  },
+  {
+    "date": "2025-07-23",
+    "change": 15,
+    "capital": 344.15
+  },
+  {
+    "date": "2025-07-23",
+    "change": 15,
+    "capital": 359.15
+  },
+  {
+    "date": "2025-07-23",
+    "change": 15,
+    "capital": 374.15
+  },
+  {
+    "date": "2025-07-23",
+    "change": 30,
+    "capital": 404.15
+  }
+]

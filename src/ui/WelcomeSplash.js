@@ -1,21 +1,16 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
 import './WelcomeSplash.css';
 
-function Dashboard() {
-  const navigate = useNavigate();
-
+function WelcomeSplash() {
   return (
     <div className="welcome-wrapper">
       <div className="hero-card">
         <h1 className="hero-title">BotMyWallet</h1>
         <p className="hero-subtitle">Tu estratega cripto con inteligencia adaptativa</p>
-        <button className="hero-button" onClick={() => navigate('/panel')}>
-          Acceder al sistema
-        </button>
+        <button className="hero-button">Entrar al Dashboard</button>
       </div>
     </div>
   );
 }
 
-export default Dashboard;
+export default WelcomeSplash;

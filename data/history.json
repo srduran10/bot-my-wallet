@@ -1,1 +1,77 @@
-[]
+[
+  {
+    "timestamp": "2025-07-22T09:15:00Z",
+    "symbol": "BTCUSDT",
+    "side": "BUY",
+    "price": 29850.00,
+    "quantity": 0.0025,
+    "orderId": "7643918",
+    "type": "MARKET",
+    "entry": 29850.00,
+    "sl": 29600.00,
+    "tp": 30200.00,
+    "rsi": 28.7,
+    "macd": -0.42,
+    "emaSignal": "bullish",
+    "sentiment": {
+      "classification": "Extreme Fear",
+      "value": 12
+    },
+    "strategySnapshot": {
+      "logic": "adaptive",
+      "confirmation": "dual",
+      "assetProfile": "Volatile"
+    },
+    "outcome": "win"
+  },
+  {
+    "timestamp": "2025-07-22T14:20:00Z",
+    "symbol": "ETHUSDT",
+    "side": "SELL",
+    "price": 1850.20,
+    "quantity": 0.12,
+    "orderId": "7644082",
+    "type": "MARKET",
+    "entry": 1850.20,
+    "sl": 1868.00,
+    "tp": 1825.00,
+    "rsi": 75.1,
+    "macd": 0.22,
+    "emaSignal": "bearish",
+    "sentiment": {
+      "classification": "Greed",
+      "value": 72
+    },
+    "strategySnapshot": {
+      "logic": "classic",
+      "confirmation": "triple",
+      "assetProfile": "Stable"
+    },
+    "outcome": "loss"
+  },
+  {
+    "timestamp": "2025-07-23T02:05:00Z",
+    "symbol": "MATICUSDT",
+    "side": "BUY",
+    "price": 0.7354,
+    "quantity": 350,
+    "orderId": "7644226",
+    "type": "MARKET",
+    "entry": 0.7354,
+    "sl": 0.7210,
+    "tp": 0.7650,
+    "rsi": 61.2,
+    "macd": 0.08,
+    "emaSignal": "neutral",
+    "sentiment": {
+      "classification": "Fear",
+      "value": 26
+    },
+    "strategySnapshot": {
+      "logic": "adaptive",
+      "confirmation": "single",
+      "assetProfile": "MidCap"
+    },
+    "outcome": "pending"
+  }
+]

@@ -1,0 +1,157 @@
+
+[2025-07-22T23:08:57.125Z] 🚦 Inicio de ejecución automática
+[2025-07-22T23:08:57.126Z] 🔍 Posiciones activas monitoreadas
+[2025-07-22T23:08:57.136Z] 🧠 Estrategia adaptativa: {}
+[2025-07-22T23:08:57.243Z] 🚦 Inicio de ejecución automática
+[2025-07-22T23:08:57.244Z] 🔍 Posiciones activas monitoreadas
+[2025-07-22T23:08:57.244Z] 🧠 Estrategia adaptativa: {}
+[2025-07-22T23:08:57.367Z] 🚦 Inicio de ejecución automática
+[2025-07-22T23:08:57.370Z] 🚦 Inicio de ejecución automática
+[2025-07-22T23:08:57.370Z] 🚦 Inicio de ejecución automática
+[2025-07-22T23:08:57.372Z] 🔍 Posiciones activas monitoreadas
+[2025-07-22T23:08:57.372Z] 🧠 Estrategia adaptativa: {}
+[2025-07-22T23:08:57.372Z] 🔍 Posiciones activas monitoreadas
+[2025-07-22T23:08:57.373Z] 🧠 Estrategia adaptativa: {}
+[2025-07-22T23:08:57.377Z] 🔍 Posiciones activas monitoreadas
+[2025-07-22T23:08:57.378Z] 🧠 Estrategia adaptativa: {}
+[2025-07-22T23:08:57.938Z] 📊 BTCUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:08:58.127Z] 📊 ETHUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:08:58.246Z] 📊 BTCUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:08:58.329Z] 📊 BTCUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:08:58.338Z] 📊 BTCUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:08:58.342Z] 📊 BNBUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:08:58.358Z] 📊 BTCUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:08:58.515Z] 📊 LTCUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:08:58.530Z] 📊 ETHUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:08:58.535Z] 📊 ETHUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:08:58.544Z] 📊 ETHUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:08:58.679Z] 📊 XRPUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:08:58.692Z] 📊 BNBUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:08:58.701Z] 📊 BNBUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:08:58.842Z] 📊 BCHUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:08:58.856Z] 📊 LTCUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:08:58.995Z] ❌ Error al obtener precios para EOSUSDT: Invalid symbol.
+[2025-07-22T23:08:59.152Z] 📊 LTCUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:08:59.244Z] 📊 DOGEUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:08:59.245Z] 📉 No hay señales válidas en ningún activo
+[2025-07-22T23:08:59.245Z] 📋 Portafolio generado con 0 activos
+[2025-07-22T23:08:59.245Z] ⛔ Ciclo finalizado sin señales de entrada
+[2025-07-22T23:08:59.314Z] 📊 XRPUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:08:59.471Z] 📊 BCHUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:08:59.626Z] ❌ Error al obtener precios para EOSUSDT: Invalid symbol.
+[2025-07-22T23:09:00.143Z] 📊 DOGEUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:09:00.145Z] 📉 No hay señales válidas en ningún activo
+[2025-07-22T23:09:00.146Z] 📋 Portafolio generado con 0 activos
+[2025-07-22T23:09:00.146Z] ⛔ Ciclo finalizado sin señales de entrada
+[2025-07-22T23:09:29.469Z] 🚦 Inicio de ejecución automática
+[2025-07-22T23:09:29.470Z] 🔍 Posiciones activas monitoreadas
+[2025-07-22T23:09:29.471Z] 🧠 Estrategia adaptativa: {}
+[2025-07-22T23:09:29.885Z] 📊 BTCUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:09:30.051Z] 📊 ETHUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:09:30.217Z] 📊 BNBUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:09:30.387Z] 📊 LTCUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:09:30.551Z] 📊 XRPUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:09:30.715Z] 📊 BCHUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:09:30.870Z] ❌ Error al obtener precios para EOSUSDT: Invalid symbol.
+[2025-07-22T23:09:31.112Z] 📊 DOGEUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:09:31.113Z] 📉 No hay señales válidas en ningún activo
+[2025-07-22T23:09:31.113Z] 📋 Portafolio generado con 0 activos
+[2025-07-22T23:09:31.114Z] ⛔ Ciclo finalizado sin señales de entrada
+[2025-07-22T23:14:29.486Z] 🚦 Inicio de ejecución automática
+[2025-07-22T23:14:29.487Z] 🔍 Posiciones activas monitoreadas
+[2025-07-22T23:14:29.487Z] 🧠 Estrategia adaptativa: {}
+[2025-07-22T23:14:29.862Z] 📊 BTCUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:14:30.019Z] 📊 ETHUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:14:30.182Z] 📊 BNBUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:14:30.342Z] 📊 LTCUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:14:30.791Z] 📊 XRPUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:14:30.946Z] 📊 BCHUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:14:31.103Z] ❌ Error al obtener precios para EOSUSDT: Invalid symbol.
+[2025-07-22T23:14:31.321Z] 📊 DOGEUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:14:31.322Z] 📉 No hay señales válidas en ningún activo
+[2025-07-22T23:14:31.322Z] 📋 Portafolio generado con 0 activos
+[2025-07-22T23:14:31.322Z] ⛔ Ciclo finalizado sin señales de entrada
+[2025-07-22T23:19:29.558Z] 🚦 Inicio de ejecución automática
+[2025-07-22T23:19:29.558Z] 🔍 Posiciones activas monitoreadas
+[2025-07-22T23:19:29.558Z] 🧠 Estrategia adaptativa: {}
+[2025-07-22T23:19:29.924Z] 📊 BTCUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:19:30.085Z] 📊 ETHUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:19:30.248Z] 📊 BNBUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:19:30.404Z] 📊 LTCUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:19:30.561Z] 📊 XRPUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:19:30.727Z] 📊 BCHUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:19:30.883Z] ❌ Error al obtener precios para EOSUSDT: Invalid symbol.
+[2025-07-22T23:19:31.073Z] 📊 DOGEUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:19:31.073Z] 📉 No hay señales válidas en ningún activo
+[2025-07-22T23:19:31.073Z] 📋 Portafolio generado con 0 activos
+[2025-07-22T23:19:31.073Z] ⛔ Ciclo finalizado sin señales de entrada
+[2025-07-22T23:24:29.656Z] 🚦 Inicio de ejecución automática
+[2025-07-22T23:24:29.657Z] 🔍 Posiciones activas monitoreadas
+[2025-07-22T23:24:29.657Z] 🧠 Estrategia adaptativa: {}
+[2025-07-22T23:24:30.033Z] 📊 BTCUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:24:30.191Z] 📊 ETHUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:24:30.355Z] 📊 BNBUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:24:30.509Z] 📊 LTCUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:24:30.673Z] 📊 XRPUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:24:30.836Z] 📊 BCHUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:24:30.996Z] ❌ Error al obtener precios para EOSUSDT: Invalid symbol.
+[2025-07-22T23:24:31.196Z] 📊 DOGEUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:24:31.196Z] 📉 No hay señales válidas en ningún activo
+[2025-07-22T23:24:31.196Z] 📋 Portafolio generado con 0 activos
+[2025-07-22T23:24:31.196Z] ⛔ Ciclo finalizado sin señales de entrada
+[2025-07-22T23:29:29.694Z] 🚦 Inicio de ejecución automática
+[2025-07-22T23:29:29.694Z] 🔍 Posiciones activas monitoreadas
+[2025-07-22T23:29:29.694Z] 🧠 Estrategia adaptativa: {}
+[2025-07-22T23:29:30.057Z] 📊 BTCUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:29:30.514Z] 📊 ETHUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:29:30.672Z] 📊 BNBUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:29:30.835Z] 📊 LTCUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:29:30.996Z] 📊 XRPUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:29:31.156Z] 📊 BCHUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:29:31.313Z] ❌ Error al obtener precios para EOSUSDT: Invalid symbol.
+[2025-07-22T23:29:31.686Z] 📊 DOGEUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:29:31.686Z] 📉 No hay señales válidas en ningún activo
+[2025-07-22T23:29:31.686Z] 📋 Portafolio generado con 0 activos
+[2025-07-22T23:29:31.686Z] ⛔ Ciclo finalizado sin señales de entrada
+[2025-07-22T23:34:29.712Z] 🚦 Inicio de ejecución automática
+[2025-07-22T23:34:29.712Z] 🔍 Posiciones activas monitoreadas
+[2025-07-22T23:34:29.712Z] 🧠 Estrategia adaptativa: {}
+[2025-07-22T23:34:30.075Z] 📊 BTCUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:34:30.236Z] 📊 ETHUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:34:30.684Z] 📊 BNBUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:34:30.841Z] 📊 LTCUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:34:30.999Z] 📊 XRPUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:34:31.156Z] 📊 BCHUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:34:31.310Z] ❌ Error al obtener precios para EOSUSDT: Invalid symbol.
+[2025-07-22T23:34:31.482Z] 📊 DOGEUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:34:31.483Z] 📉 No hay señales válidas en ningún activo
+[2025-07-22T23:34:31.483Z] 📋 Portafolio generado con 0 activos
+[2025-07-22T23:34:31.483Z] ⛔ Ciclo finalizado sin señales de entrada
+[2025-07-22T23:39:29.778Z] 🚦 Inicio de ejecución automática
+[2025-07-22T23:39:29.778Z] 🔍 Posiciones activas monitoreadas
+[2025-07-22T23:39:29.778Z] 🧠 Estrategia adaptativa: {}
+[2025-07-22T23:39:30.179Z] 📊 BTCUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:39:30.333Z] 📊 ETHUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:39:30.487Z] 📊 BNBUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:39:30.645Z] 📊 LTCUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:39:31.097Z] 📊 XRPUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:39:31.259Z] 📊 BCHUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:39:31.415Z] ❌ Error al obtener precios para EOSUSDT: Invalid symbol.
+[2025-07-22T23:39:31.600Z] 📊 DOGEUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:39:31.602Z] 📉 No hay señales válidas en ningún activo
+[2025-07-22T23:39:31.602Z] 📋 Portafolio generado con 0 activos
+[2025-07-22T23:39:31.602Z] ⛔ Ciclo finalizado sin señales de entrada
+[2025-07-22T23:44:29.867Z] 🚦 Inicio de ejecución automática
+[2025-07-22T23:44:29.867Z] 🔍 Posiciones activas monitoreadas
+[2025-07-22T23:44:29.867Z] 🧠 Estrategia adaptativa: {}
+[2025-07-22T23:44:30.213Z] 📊 BTCUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:44:30.367Z] 📊 ETHUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:44:30.527Z] 📊 BNBUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:44:30.970Z] 📊 LTCUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:44:31.125Z] 📊 XRPUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:44:31.574Z] 📊 BCHUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:44:31.740Z] ❌ Error al obtener precios para EOSUSDT: Invalid symbol.
+[2025-07-22T23:44:31.910Z] 📊 DOGEUSDT | 100 precios de cierre extraídos
+[2025-07-22T23:44:31.910Z] 📉 No hay señales válidas en ningún activo
+[2025-07-22T23:44:31.911Z] 📋 Portafolio generado con 0 activos
+[2025-07-22T23:44:31.911Z] ⛔ Ciclo finalizado sin señales de entrada

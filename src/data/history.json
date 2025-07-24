@@ -1,0 +1,1571 @@
+[
+  {
+    "symbol": "BTCUSDT",
+    "rsi": 73.5,
+    "macd": 1.12,
+    "sentiment": {
+      "label": "Greedy",
+      "value": 72
+    },
+    "prediction": 68.9,
+    "outcome": "win"
+  },
+  {
+    "symbol": "ETHUSDT",
+    "rsi": 59.1,
+    "macd": 0.32,
+    "sentiment": {
+      "label": "Neutral",
+      "value": 54
+    },
+    "prediction": 74.3,
+    "outcome": "pending"
+  },
+  {
+    "symbol": "SOLUSDT",
+    "rsi": 48.2,
+    "macd": -0.21,
+    "sentiment": {
+      "label": "Fear",
+      "value": 32
+    },
+    "prediction": 62.5,
+    "outcome": "loss"
+  },
+  {
+    "timestamp": 1753254359466,
+    "symbol": "BTCUSDT",
+    "price": 118484.1,
+    "rsi": 31,
+    "macd": -0.74,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 66.6,
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753254359972,
+    "symbol": "ETHUSDT",
+    "price": 3697.2,
+    "rsi": 30,
+    "macd": -0.35,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 66.9,
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753254360123,
+    "symbol": "SOLUSDT",
+    "price": 200.53,
+    "rsi": 53,
+    "macd": -0.96,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 64.1,
+    "outcome": "pending"
+  },
+  {
+    "timestamp": 1753254487713,
+    "symbol": "BTCUSDT",
+    "price": 118465.61,
+    "rsi": 58,
+    "macd": 0.84,
+    "sentiment": {
+      "label": "Greedy"
+    },
+    "prediction": 75.7,
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753254487885,
+    "symbol": "ETHUSDT",
+    "price": 3697.79,
+    "rsi": 48,
+    "macd": -0.24,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 62.1,
+    "outcome": "pending"
+  },
+  {
+    "timestamp": 1753254488046,
+    "symbol": "SOLUSDT",
+    "price": 200.59,
+    "rsi": 40,
+    "macd": 0.87,
+    "sentiment": {
+      "label": "Greedy"
+    },
+    "prediction": 73.6,
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753254886874,
+    "symbol": "BTCUSDT",
+    "price": 118494.1,
+    "rsi": 34,
+    "macd": 0.38,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 59.6,
+    "outcome": "pending"
+  },
+  {
+    "timestamp": 1753254887081,
+    "symbol": "ETHUSDT",
+    "price": 3692.12,
+    "rsi": 50,
+    "macd": -0.62,
+    "sentiment": {
+      "label": "Greedy"
+    },
+    "prediction": 78.9,
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753254887236,
+    "symbol": "SOLUSDT",
+    "price": 200.24,
+    "rsi": 64,
+    "macd": -0.37,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 55.2,
+    "outcome": "pending"
+  },
+  {
+    "timestamp": 1753255800586,
+    "symbol": "BTCUSDT",
+    "price": 118528.94,
+    "rsi": 34,
+    "macd": -0.09,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 57.3,
+    "outcome": "pending"
+  },
+  {
+    "timestamp": 1753255800691,
+    "symbol": "BTCUSDT",
+    "price": 118532.37,
+    "rsi": 64,
+    "macd": -0.45,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 67.7,
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753255800711,
+    "symbol": "BTCUSDT",
+    "price": 118532.37,
+    "rsi": 67,
+    "macd": -0.33,
+    "sentiment": {
+      "label": "Greedy"
+    },
+    "prediction": 72.7,
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753255800871,
+    "symbol": "ETHUSDT",
+    "price": 3693.01,
+    "rsi": 50,
+    "macd": 0.04,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 59,
+    "outcome": "pending"
+  },
+  {
+    "timestamp": 1753255800916,
+    "symbol": "ETHUSDT",
+    "price": 3693.01,
+    "rsi": 41,
+    "macd": -0.33,
+    "sentiment": {
+      "label": "Greedy"
+    },
+    "prediction": 73.8,
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753255801043,
+    "symbol": "ETHUSDT",
+    "price": 3693.01,
+    "rsi": 38,
+    "macd": 0.67,
+    "sentiment": {
+      "label": "Greedy"
+    },
+    "prediction": 78.5,
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753255801199,
+    "symbol": "SOLUSDT",
+    "price": 200.86,
+    "rsi": 46,
+    "macd": -0.62,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 57.3,
+    "outcome": "pending"
+  },
+  {
+    "timestamp": 1753255801307,
+    "symbol": "SOLUSDT",
+    "price": 200.86,
+    "rsi": 68,
+    "macd": 0.36,
+    "sentiment": {
+      "label": "Greedy"
+    },
+    "prediction": 76.5,
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753255801353,
+    "symbol": "SOLUSDT",
+    "price": 200.86,
+    "rsi": 55,
+    "macd": 0.65,
+    "sentiment": {
+      "label": "Fear"
+    },
+    "prediction": 51.1,
+    "outcome": "pending"
+  },
+  {
+    "timestamp": 1753256700509,
+    "symbol": "BTCUSDT",
+    "price": 118461.66,
+    "rsi": 47,
+    "macd": 0.8,
+    "sentiment": {
+      "label": "Greedy"
+    },
+    "prediction": 71.5,
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753256700537,
+    "symbol": "BTCUSDT",
+    "price": 118461.66,
+    "rsi": 61,
+    "macd": 0.77,
+    "sentiment": {
+      "label": "Fear"
+    },
+    "prediction": 50.4,
+    "outcome": "pending"
+  },
+  {
+    "timestamp": 1753256700558,
+    "symbol": "BTCUSDT",
+    "price": 118461.66,
+    "rsi": 69,
+    "macd": -0.23,
+    "sentiment": {
+      "label": "Greedy"
+    },
+    "prediction": 75.3,
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753256700844,
+    "symbol": "ETHUSDT",
+    "price": 3671.41,
+    "rsi": 67,
+    "macd": -0.88,
+    "sentiment": {
+      "label": "Greedy"
+    },
+    "prediction": 78.1,
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753256700847,
+    "symbol": "ETHUSDT",
+    "price": 3671.41,
+    "rsi": 62,
+    "macd": 0.81,
+    "sentiment": {
+      "label": "Greedy"
+    },
+    "prediction": 71.2,
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753256700999,
+    "symbol": "SOLUSDT",
+    "price": 199.64,
+    "rsi": 42,
+    "macd": -0.69,
+    "sentiment": {
+      "label": "Fear"
+    },
+    "prediction": 54.9,
+    "outcome": "pending"
+  },
+  {
+    "timestamp": 1753256701154,
+    "symbol": "ETHUSDT",
+    "price": 3671.41,
+    "rsi": 30,
+    "macd": -0.27,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 65.4,
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753256701295,
+    "symbol": "SOLUSDT",
+    "price": 199.64,
+    "rsi": 34,
+    "macd": 0.05,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 56.2,
+    "outcome": "pending"
+  },
+  {
+    "timestamp": 1753256701319,
+    "symbol": "SOLUSDT",
+    "price": 199.64,
+    "rsi": 38,
+    "macd": -0.92,
+    "sentiment": {
+      "label": "Greedy"
+    },
+    "prediction": 73.9,
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753257600403,
+    "symbol": "BTCUSDT",
+    "price": 118350.35,
+    "rsi": 68,
+    "macd": -0.03,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 67.6,
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753257600410,
+    "symbol": "BTCUSDT",
+    "price": 118350.35,
+    "rsi": 61,
+    "macd": -0.93,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 62.7,
+    "outcome": "pending"
+  },
+  {
+    "timestamp": 1753257600620,
+    "symbol": "ETHUSDT",
+    "price": 3674.07,
+    "rsi": 68,
+    "macd": -0.44,
+    "sentiment": {
+      "label": "Greedy"
+    },
+    "prediction": 77.8,
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753257600626,
+    "symbol": "ETHUSDT",
+    "price": 3674.07,
+    "rsi": 53,
+    "macd": 0.33,
+    "sentiment": {
+      "label": "Greedy"
+    },
+    "prediction": 78.3,
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753257600695,
+    "symbol": "BTCUSDT",
+    "price": 118350.35,
+    "rsi": 49,
+    "macd": 0.96,
+    "sentiment": {
+      "label": "Fear"
+    },
+    "prediction": 54.1,
+    "outcome": "pending"
+  },
+  {
+    "timestamp": 1753257600781,
+    "symbol": "SOLUSDT",
+    "price": 199.51,
+    "rsi": 45,
+    "macd": -0.11,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 59.1,
+    "outcome": "pending"
+  },
+  {
+    "timestamp": 1753257600788,
+    "symbol": "SOLUSDT",
+    "price": 199.51,
+    "rsi": 36,
+    "macd": 0.97,
+    "sentiment": {
+      "label": "Fear"
+    },
+    "prediction": 53.9,
+    "outcome": "pending"
+  },
+  {
+    "timestamp": 1753257600901,
+    "symbol": "ETHUSDT",
+    "price": 3674.07,
+    "rsi": 39,
+    "macd": -0.76,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 57.5,
+    "outcome": "pending"
+  },
+  {
+    "timestamp": 1753257601073,
+    "symbol": "SOLUSDT",
+    "price": 199.51,
+    "rsi": 35,
+    "macd": 0.73,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 59,
+    "outcome": "pending"
+  },
+  {
+    "timestamp": 1753258500208,
+    "symbol": "BTCUSDT",
+    "price": 118511.26,
+    "rsi": 40,
+    "macd": -0.79,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 66.9,
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753258500379,
+    "symbol": "ETHUSDT",
+    "price": 3681.03,
+    "rsi": 64,
+    "macd": -0.85,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 61.9,
+    "outcome": "pending"
+  },
+  {
+    "timestamp": 1753258500535,
+    "symbol": "SOLUSDT",
+    "price": 199.61,
+    "rsi": 36,
+    "macd": 0.41,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 56.2,
+    "outcome": "pending"
+  },
+  {
+    "timestamp": 1753258500592,
+    "symbol": "BTCUSDT",
+    "price": 118511.26,
+    "rsi": 37,
+    "macd": 0.09,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 63.3,
+    "outcome": "pending"
+  },
+  {
+    "timestamp": 1753258500602,
+    "symbol": "BTCUSDT",
+    "price": 118511.26,
+    "rsi": 39,
+    "macd": 0.06,
+    "sentiment": {
+      "label": "Fear"
+    },
+    "prediction": 54.8,
+    "outcome": "pending"
+  },
+  {
+    "timestamp": 1753258500794,
+    "symbol": "ETHUSDT",
+    "price": 3681.03,
+    "rsi": 52,
+    "macd": 0.48,
+    "sentiment": {
+      "label": "Fear"
+    },
+    "prediction": 52.2,
+    "outcome": "pending"
+  },
+  {
+    "timestamp": 1753258500948,
+    "symbol": "SOLUSDT",
+    "price": 199.62,
+    "rsi": 34,
+    "macd": -0.63,
+    "sentiment": {
+      "label": "Greedy"
+    },
+    "prediction": 79.4,
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753259400312,
+    "symbol": "BTCUSDT",
+    "price": 118372.9,
+    "rsi": 67,
+    "macd": 0.89,
+    "sentiment": {
+      "label": "Greedy"
+    },
+    "prediction": 73.6,
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753259400515,
+    "symbol": "ETHUSDT",
+    "price": 3682.9,
+    "rsi": 46,
+    "macd": 0.56,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 60.8,
+    "outcome": "pending"
+  },
+  {
+    "timestamp": 1753259400596,
+    "symbol": "BTCUSDT",
+    "price": 118372.9,
+    "rsi": 35,
+    "macd": -0.12,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 66.7,
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753259400670,
+    "symbol": "SOLUSDT",
+    "price": 199.22,
+    "rsi": 69,
+    "macd": 0.18,
+    "sentiment": {
+      "label": "Greedy"
+    },
+    "prediction": 80,
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753259401068,
+    "symbol": "ETHUSDT",
+    "price": 3682.9,
+    "rsi": 66,
+    "macd": 1,
+    "sentiment": {
+      "label": "Greedy"
+    },
+    "prediction": 79.5,
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753259401075,
+    "symbol": "ETHUSDT",
+    "price": 3682.9,
+    "rsi": 61,
+    "macd": -0.94,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 69.5,
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753259401232,
+    "symbol": "SOLUSDT",
+    "price": 199.22,
+    "rsi": 37,
+    "macd": 0.08,
+    "sentiment": {
+      "label": "Greedy"
+    },
+    "prediction": 72.7,
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753259401534,
+    "symbol": "SOLUSDT",
+    "price": 199.22,
+    "rsi": 59,
+    "macd": 0.35,
+    "sentiment": {
+      "label": "Greedy"
+    },
+    "prediction": 72.5,
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753260300454,
+    "symbol": "BTCUSDT",
+    "price": 118315.73,
+    "rsi": 34,
+    "macd": 0.52,
+    "sentiment": {
+      "label": "Greedy"
+    },
+    "prediction": 74.2,
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753260300647,
+    "symbol": "ETHUSDT",
+    "price": 3675.45,
+    "rsi": 48,
+    "macd": 0.72,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 58.7,
+    "outcome": "pending"
+  },
+  {
+    "timestamp": 1753260300732,
+    "symbol": "BTCUSDT",
+    "price": 118315.73,
+    "rsi": 33,
+    "macd": 0.51,
+    "sentiment": {
+      "label": "Greedy"
+    },
+    "prediction": 74.9,
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753260300751,
+    "symbol": "BTCUSDT",
+    "price": 118315.73,
+    "rsi": 41,
+    "macd": -0.69,
+    "sentiment": {
+      "label": "Fear"
+    },
+    "prediction": 54.6,
+    "outcome": "pending"
+  },
+  {
+    "timestamp": 1753260300803,
+    "symbol": "SOLUSDT",
+    "price": 199.09,
+    "rsi": 32,
+    "macd": -0.76,
+    "sentiment": {
+      "label": "Greedy"
+    },
+    "prediction": 73.9,
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753260300908,
+    "symbol": "ETHUSDT",
+    "price": 3675.45,
+    "rsi": 33,
+    "macd": -0.14,
+    "sentiment": {
+      "label": "Greedy"
+    },
+    "prediction": 75.8,
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753260300927,
+    "symbol": "ETHUSDT",
+    "price": 3675.45,
+    "rsi": 53,
+    "macd": -0.2,
+    "sentiment": {
+      "label": "Greedy"
+    },
+    "prediction": 72.3,
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753260301063,
+    "symbol": "SOLUSDT",
+    "price": 199.09,
+    "rsi": 59,
+    "macd": -0.16,
+    "sentiment": {
+      "label": "Greedy"
+    },
+    "prediction": 79,
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753260301081,
+    "symbol": "SOLUSDT",
+    "price": 199.09,
+    "rsi": 56,
+    "macd": -0.28,
+    "sentiment": {
+      "label": "Greedy"
+    },
+    "prediction": 74,
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753296300689,
+    "symbol": "BTCUSDT",
+    "price": 118243.9,
+    "rsi": 51,
+    "macd": 0.43,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 65.3,
+    "outcome": "win"
+  },
+  {
+    "timestamp": "6:45:00 PM",
+    "symbol": "BTCUSDT",
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753296300965,
+    "symbol": "ETHUSDT",
+    "price": 3600.58,
+    "rsi": 62,
+    "macd": 0.27,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 70,
+    "outcome": "win"
+  },
+  {
+    "timestamp": "6:45:00 PM",
+    "symbol": "ETHUSDT",
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753296301124,
+    "symbol": "SOLUSDT",
+    "price": 189.72,
+    "rsi": 36,
+    "macd": 0.92,
+    "sentiment": {
+      "label": "Fear"
+    },
+    "prediction": 52.1,
+    "outcome": "pending"
+  },
+  {
+    "timestamp": "6:45:00 PM",
+    "symbol": "SOLUSDT",
+    "outcome": "pending"
+  },
+  {
+    "timestamp": 1753297200517,
+    "symbol": "BTCUSDT",
+    "price": 118379.99,
+    "rsi": 59,
+    "macd": 0.29,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 58.6,
+    "outcome": "pending"
+  },
+  {
+    "timestamp": "7:00:00 PM",
+    "symbol": "BTCUSDT",
+    "outcome": "pending"
+  },
+  {
+    "timestamp": 1753297200770,
+    "symbol": "ETHUSDT",
+    "price": 3603.74,
+    "rsi": 58,
+    "macd": -0.55,
+    "sentiment": {
+      "label": "Greedy"
+    },
+    "prediction": 76.2,
+    "outcome": "win"
+  },
+  {
+    "timestamp": "7:00:00 PM",
+    "symbol": "ETHUSDT",
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753297200952,
+    "symbol": "SOLUSDT",
+    "price": 190.16,
+    "rsi": 63,
+    "macd": -0.51,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 66.2,
+    "outcome": "win"
+  },
+  {
+    "timestamp": "7:00:00 PM",
+    "symbol": "SOLUSDT",
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753298100695,
+    "symbol": "BTCUSDT",
+    "price": 118423.24,
+    "rsi": 38,
+    "macd": -0.11,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 62.8,
+    "outcome": "pending"
+  },
+  {
+    "timestamp": "7:15:00 PM",
+    "symbol": "BTCUSDT",
+    "outcome": "pending"
+  },
+  {
+    "timestamp": 1753298101172,
+    "symbol": "ETHUSDT",
+    "price": 3609.5,
+    "rsi": 64,
+    "macd": 0.98,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 68.9,
+    "outcome": "win"
+  },
+  {
+    "timestamp": "7:15:00 PM",
+    "symbol": "ETHUSDT",
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753298101347,
+    "symbol": "SOLUSDT",
+    "price": 189.86,
+    "rsi": 47,
+    "macd": 0.71,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 56.7,
+    "outcome": "pending"
+  },
+  {
+    "timestamp": "7:15:00 PM",
+    "symbol": "SOLUSDT",
+    "outcome": "pending"
+  },
+  {
+    "timestamp": 1753299000478,
+    "symbol": "BTCUSDT",
+    "price": 118390.77,
+    "rsi": 64,
+    "macd": 0.59,
+    "sentiment": {
+      "label": "Fear"
+    },
+    "prediction": 50.6,
+    "outcome": "pending"
+  },
+  {
+    "timestamp": "7:30:00 PM",
+    "symbol": "BTCUSDT",
+    "outcome": "pending"
+  },
+  {
+    "timestamp": 1753299001132,
+    "symbol": "ETHUSDT",
+    "price": 3597.35,
+    "rsi": 37,
+    "macd": -0.09,
+    "sentiment": {
+      "label": "Greedy"
+    },
+    "prediction": 73.2,
+    "outcome": "win"
+  },
+  {
+    "timestamp": "7:30:00 PM",
+    "symbol": "ETHUSDT",
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753299001583,
+    "symbol": "SOLUSDT",
+    "price": 188.93,
+    "rsi": 61,
+    "macd": 0.35,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 64.6,
+    "outcome": "pending"
+  },
+  {
+    "timestamp": "7:30:00 PM",
+    "symbol": "SOLUSDT",
+    "outcome": "pending"
+  },
+  {
+    "timestamp": 1753299900544,
+    "symbol": "BTCUSDT",
+    "price": 118322.06,
+    "rsi": 65,
+    "macd": -0.03,
+    "sentiment": {
+      "label": "Greedy"
+    },
+    "prediction": 74,
+    "outcome": "win"
+  },
+  {
+    "timestamp": "7:45:00 PM",
+    "symbol": "BTCUSDT",
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753299900762,
+    "symbol": "ETHUSDT",
+    "price": 3594.5,
+    "rsi": 59,
+    "macd": 0.46,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 67.2,
+    "outcome": "win"
+  },
+  {
+    "timestamp": "7:45:00 PM",
+    "symbol": "ETHUSDT",
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753299901205,
+    "symbol": "SOLUSDT",
+    "price": 188.59,
+    "rsi": 67,
+    "macd": -0.47,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 68.8,
+    "outcome": "win"
+  },
+  {
+    "timestamp": "7:45:00 PM",
+    "symbol": "SOLUSDT",
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753300800373,
+    "symbol": "BTCUSDT",
+    "price": 118352.15,
+    "rsi": 44,
+    "macd": -0.68,
+    "sentiment": {
+      "label": "Fear"
+    },
+    "prediction": 51.9,
+    "outcome": "pending"
+  },
+  {
+    "timestamp": "8:00:00 PM",
+    "symbol": "BTCUSDT",
+    "outcome": "pending"
+  },
+  {
+    "timestamp": 1753300800862,
+    "symbol": "ETHUSDT",
+    "price": 3590.57,
+    "rsi": 41,
+    "macd": -0.75,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 56,
+    "outcome": "pending"
+  },
+  {
+    "timestamp": "8:00:00 PM",
+    "symbol": "ETHUSDT",
+    "outcome": "pending"
+  },
+  {
+    "timestamp": 1753300801034,
+    "symbol": "SOLUSDT",
+    "price": 188.89,
+    "rsi": 60,
+    "macd": -0.25,
+    "sentiment": {
+      "label": "Greedy"
+    },
+    "prediction": 77.7,
+    "outcome": "win"
+  },
+  {
+    "timestamp": "8:00:00 PM",
+    "symbol": "SOLUSDT",
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753301700191,
+    "symbol": "BTCUSDT",
+    "price": 118438.01,
+    "rsi": 66,
+    "macd": 0.9,
+    "sentiment": {
+      "label": "Greedy"
+    },
+    "prediction": 76.1,
+    "outcome": "win"
+  },
+  {
+    "timestamp": "8:15:00 PM",
+    "symbol": "BTCUSDT",
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753301700827,
+    "symbol": "ETHUSDT",
+    "price": 3586.04,
+    "rsi": 41,
+    "macd": -0.54,
+    "sentiment": {
+      "label": "Greedy"
+    },
+    "prediction": 71.1,
+    "outcome": "win"
+  },
+  {
+    "timestamp": "8:15:00 PM",
+    "symbol": "ETHUSDT",
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753301701283,
+    "symbol": "SOLUSDT",
+    "price": 188.51,
+    "rsi": 42,
+    "macd": 0.45,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 55.5,
+    "outcome": "pending"
+  },
+  {
+    "timestamp": "8:15:00 PM",
+    "symbol": "SOLUSDT",
+    "outcome": "pending"
+  },
+  {
+    "timestamp": 1753302600532,
+    "symbol": "BTCUSDT",
+    "price": 118050.74,
+    "rsi": 35,
+    "macd": -0.88,
+    "sentiment": {
+      "label": "Fear"
+    },
+    "prediction": 51.8,
+    "outcome": "pending"
+  },
+  {
+    "timestamp": "8:30:00 PM",
+    "symbol": "BTCUSDT",
+    "outcome": "pending"
+  },
+  {
+    "timestamp": 1753302600779,
+    "symbol": "ETHUSDT",
+    "price": 3569.95,
+    "rsi": 51,
+    "macd": 0.44,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 69.5,
+    "outcome": "win"
+  },
+  {
+    "timestamp": "8:30:00 PM",
+    "symbol": "ETHUSDT",
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753302600937,
+    "symbol": "SOLUSDT",
+    "price": 187.46,
+    "rsi": 40,
+    "macd": -0.79,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 67.6,
+    "outcome": "win"
+  },
+  {
+    "timestamp": "8:30:00 PM",
+    "symbol": "SOLUSDT",
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753303500517,
+    "symbol": "BTCUSDT",
+    "price": 117806.5,
+    "rsi": 65,
+    "macd": -0.04,
+    "sentiment": {
+      "label": "Greedy"
+    },
+    "prediction": 74.6,
+    "outcome": "win"
+  },
+  {
+    "timestamp": "8:45:00 PM",
+    "symbol": "BTCUSDT",
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753303501054,
+    "symbol": "ETHUSDT",
+    "price": 3571.03,
+    "rsi": 47,
+    "macd": -0.98,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 64.3,
+    "outcome": "pending"
+  },
+  {
+    "timestamp": "8:45:00 PM",
+    "symbol": "ETHUSDT",
+    "outcome": "pending"
+  },
+  {
+    "timestamp": 1753303501213,
+    "symbol": "SOLUSDT",
+    "price": 186.04,
+    "rsi": 42,
+    "macd": -0.77,
+    "sentiment": {
+      "label": "Fear"
+    },
+    "prediction": 52.9,
+    "outcome": "pending"
+  },
+  {
+    "timestamp": "8:45:00 PM",
+    "symbol": "SOLUSDT",
+    "outcome": "pending"
+  },
+  {
+    "timestamp": 1753304400454,
+    "symbol": "BTCUSDT",
+    "price": 117978.29,
+    "rsi": 66,
+    "macd": -0.99,
+    "sentiment": {
+      "label": "Greedy"
+    },
+    "prediction": 75.9,
+    "outcome": "win"
+  },
+  {
+    "timestamp": "9:00:00 PM",
+    "symbol": "BTCUSDT",
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753304400637,
+    "symbol": "ETHUSDT",
+    "price": 3570.83,
+    "rsi": 69,
+    "macd": -0.8,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 66,
+    "outcome": "win"
+  },
+  {
+    "timestamp": "9:00:00 PM",
+    "symbol": "ETHUSDT",
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753304400797,
+    "symbol": "SOLUSDT",
+    "price": 186.89,
+    "rsi": 42,
+    "macd": 0.91,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 66.7,
+    "outcome": "win"
+  },
+  {
+    "timestamp": "9:00:00 PM",
+    "symbol": "SOLUSDT",
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753305300238,
+    "symbol": "BTCUSDT",
+    "price": 117973.83,
+    "rsi": 62,
+    "macd": -0.94,
+    "sentiment": {
+      "label": "Greedy"
+    },
+    "prediction": 77.8,
+    "outcome": "win"
+  },
+  {
+    "timestamp": "9:15:00 PM",
+    "symbol": "BTCUSDT",
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753305300480,
+    "symbol": "ETHUSDT",
+    "price": 3564.91,
+    "rsi": 61,
+    "macd": -0.16,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 64.9,
+    "outcome": "pending"
+  },
+  {
+    "timestamp": "9:15:00 PM",
+    "symbol": "ETHUSDT",
+    "outcome": "pending"
+  },
+  {
+    "timestamp": 1753305300634,
+    "symbol": "SOLUSDT",
+    "price": 186.68,
+    "rsi": 62,
+    "macd": 0.34,
+    "sentiment": {
+      "label": "Fear"
+    },
+    "prediction": 54.5,
+    "outcome": "pending"
+  },
+  {
+    "timestamp": "9:15:00 PM",
+    "symbol": "SOLUSDT",
+    "outcome": "pending"
+  },
+  {
+    "timestamp": 1753306200287,
+    "symbol": "BTCUSDT",
+    "price": 117431.26,
+    "rsi": 40,
+    "macd": -0.7,
+    "sentiment": {
+      "label": "Greedy"
+    },
+    "prediction": 71.2,
+    "outcome": "win"
+  },
+  {
+    "timestamp": "9:30:00 PM",
+    "symbol": "BTCUSDT",
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753306200488,
+    "symbol": "ETHUSDT",
+    "price": 3533.39,
+    "rsi": 39,
+    "macd": 0.36,
+    "sentiment": {
+      "label": "Greedy"
+    },
+    "prediction": 74.5,
+    "outcome": "win"
+  },
+  {
+    "timestamp": "9:30:00 PM",
+    "symbol": "ETHUSDT",
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753306200647,
+    "symbol": "SOLUSDT",
+    "price": 184.67,
+    "rsi": 59,
+    "macd": 0.97,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 58.4,
+    "outcome": "pending"
+  },
+  {
+    "timestamp": "9:30:00 PM",
+    "symbol": "SOLUSDT",
+    "outcome": "pending"
+  },
+  {
+    "timestamp": 1753307100202,
+    "symbol": "BTCUSDT",
+    "price": 117940.52,
+    "rsi": 67,
+    "macd": 1,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 55.3,
+    "outcome": "pending"
+  },
+  {
+    "timestamp": "9:45:00 PM",
+    "symbol": "BTCUSDT",
+    "outcome": "pending"
+  },
+  {
+    "timestamp": 1753307100414,
+    "symbol": "ETHUSDT",
+    "price": 3576.72,
+    "rsi": 51,
+    "macd": -0.34,
+    "sentiment": {
+      "label": "Greedy"
+    },
+    "prediction": 71.6,
+    "outcome": "win"
+  },
+  {
+    "timestamp": "9:45:00 PM",
+    "symbol": "ETHUSDT",
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753307100568,
+    "symbol": "SOLUSDT",
+    "price": 187.18,
+    "rsi": 54,
+    "macd": 0.2,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 61.3,
+    "outcome": "pending"
+  },
+  {
+    "timestamp": "9:45:00 PM",
+    "symbol": "SOLUSDT",
+    "outcome": "pending"
+  },
+  {
+    "timestamp": 1753308000219,
+    "symbol": "BTCUSDT",
+    "price": 118121.28,
+    "rsi": 65,
+    "macd": -0.15,
+    "sentiment": {
+      "label": "Fear"
+    },
+    "prediction": 50.7,
+    "outcome": "pending"
+  },
+  {
+    "timestamp": "10:00:00 PM",
+    "symbol": "BTCUSDT",
+    "outcome": "pending"
+  },
+  {
+    "timestamp": 1753308000423,
+    "symbol": "ETHUSDT",
+    "price": 3586.7,
+    "rsi": 65,
+    "macd": 0.32,
+    "sentiment": {
+      "label": "Greedy"
+    },
+    "prediction": 72.3,
+    "outcome": "win"
+  },
+  {
+    "timestamp": "10:00:00 PM",
+    "symbol": "ETHUSDT",
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753308000584,
+    "symbol": "SOLUSDT",
+    "price": 187.85,
+    "rsi": 42,
+    "macd": 0.42,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 61.2,
+    "outcome": "pending"
+  },
+  {
+    "timestamp": "10:00:00 PM",
+    "symbol": "SOLUSDT",
+    "outcome": "pending"
+  },
+  {
+    "timestamp": 1753308900540,
+    "symbol": "BTCUSDT",
+    "price": 118279.09,
+    "rsi": 50,
+    "macd": 0.63,
+    "sentiment": {
+      "label": "Greedy"
+    },
+    "prediction": 73.1,
+    "outcome": "win"
+  },
+  {
+    "timestamp": "10:15:00 PM",
+    "symbol": "BTCUSDT",
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753308900743,
+    "symbol": "ETHUSDT",
+    "price": 3601.7,
+    "rsi": 45,
+    "macd": -0.95,
+    "sentiment": {
+      "label": "Fear"
+    },
+    "prediction": 54.1,
+    "outcome": "pending"
+  },
+  {
+    "timestamp": "10:15:00 PM",
+    "symbol": "ETHUSDT",
+    "outcome": "pending"
+  },
+  {
+    "timestamp": 1753308900905,
+    "symbol": "SOLUSDT",
+    "price": 188.48,
+    "rsi": 57,
+    "macd": 0.96,
+    "sentiment": {
+      "label": "Fear"
+    },
+    "prediction": 50.6,
+    "outcome": "pending"
+  },
+  {
+    "timestamp": "10:15:00 PM",
+    "symbol": "SOLUSDT",
+    "outcome": "pending"
+  },
+  {
+    "timestamp": 1753309800754,
+    "symbol": "BTCUSDT",
+    "price": 118489.16,
+    "rsi": 48,
+    "macd": -0.81,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 66.7,
+    "outcome": "win"
+  },
+  {
+    "timestamp": "10:30:00 PM",
+    "symbol": "BTCUSDT",
+    "outcome": "win"
+  },
+  {
+    "timestamp": 1753309801245,
+    "symbol": "ETHUSDT",
+    "price": 3610.13,
+    "rsi": 63,
+    "macd": 0.84,
+    "sentiment": {
+      "label": "Fear"
+    },
+    "prediction": 50.9,
+    "outcome": "pending"
+  },
+  {
+    "timestamp": "10:30:00 PM",
+    "symbol": "ETHUSDT",
+    "outcome": "pending"
+  },
+  {
+    "timestamp": 1753309801401,
+    "symbol": "SOLUSDT",
+    "price": 189.2,
+    "rsi": 56,
+    "macd": -0.25,
+    "sentiment": {
+      "label": "Neutral"
+    },
+    "prediction": 69.2,
+    "outcome": "win"
+  },
+  {
+    "timestamp": "10:30:00 PM",
+    "symbol": "SOLUSDT",
+    "outcome": "win"
+  }
+]

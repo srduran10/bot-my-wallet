@@ -8,6 +8,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "bot": "node src/trade-bot.js",
+    "learn": "node src/ai/trainDaily.js",
+    "check:signals": "node src/ai/checkhistory.js",
     "bot:dev": "nodemon src/trade-bot.js",
     "test": "node src/test/testIndicators.js",
     "tsc": "tsc",
